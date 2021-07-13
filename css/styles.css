@@ -1,0 +1,74 @@
+body,
+h1 {
+	margin: 0px;
+}
+
+img{
+    width: 100%;    
+}
+
+body {
+    background-color: #fdf905c5;
+}
+
+ul li {
+    list-style: none;
+}
+
+#menu ul li {
+    border: 3px solid;
+    border-color: #fd0505c5;
+    padding: 3px;
+    margin: 3px;
+}
+
+#menu{
+    font-size: 1.8em;
+    position: absolute;
+}
+
+#menu, a{
+    text-decoration: none;
+    width: 30%;
+}
+
+#principal {
+    position: absolute;
+    width: 64%;
+    left: 33%;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+#conteudo {
+    width:100%;
+    position: relative;
+}
+
+#ultma-e-penultima{
+    position: relative;
+}
+
+#ultima {
+    top: 0px;
+    position: absolute;
+    width: 50%;
+    border-right: 1px solid;
+}
+
+#penultima {
+    top: 0px;
+    position: relative;
+    left: 50%;
+}
+
+#antepenultima {
+    position: relative;
+    width: 100%;
+}
+
+#outras {
+    position: relative;
+    width: 100%;
+}
+
