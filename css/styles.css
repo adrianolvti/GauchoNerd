@@ -3,7 +3,7 @@ img{
 }
 
 body {
-    background-color: #9b9b9b88;
+    background-color: #9b9b9b3b;
 }
 
 ul li {
@@ -12,7 +12,7 @@ ul li {
 
 #menu ul li {
     border: 3px solid;
-    border-color: #fd0505c5;
+    border-color: #05fd2ec5;
     padding: 3px;
     margin: 3px;
 }
