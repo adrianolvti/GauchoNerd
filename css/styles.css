@@ -1,14 +1,9 @@
-body,
-h1 {
-	margin: 0px;
-}
-
 img{
-    width: 100%;    
+    width: 100%;
 }
 
 body {
-    background-color: #fdf905c5;
+    background-color: #9b9b9b88;
 }
 
 ul li {
@@ -36,39 +31,51 @@ ul li {
     position: absolute;
     width: 64%;
     left: 33%;
+}
+
+#principal h1 {
+    height: 60px;
+    line-height: 60px;
     border-bottom: 1px solid;
-    border-top: 1px solid;
 }
 
-#conteudo {
-    width:100%;
-    position: relative;
+#principal h2 {
+    line-height: 50px;
+    margin-left: 20px;
 }
 
-#ultma-e-penultima{
-    position: relative;
+#principal p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+#ultima-e-penultima {
+    margin-top: 10px;
 }
 
 #ultima {
-    top: 0px;
     position: absolute;
     width: 50%;
-    border-right: 1px solid;
 }
 
 #penultima {
-    top: 0px;
     position: relative;
+    width: 50%;
     left: 50%;
 }
 
+#linha-central {
+    border-right: 1px solid;
+}
+
 #antepenultima {
-    position: relative;
-    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 
 #outras {
-    position: relative;
-    width: 100%;
+    border-top: 1px solid;
+    line-height: 30px;
+    margin-left: 20px;
 }
-
