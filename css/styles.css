@@ -3,7 +3,7 @@ img{
 }
 
 body {
-    background-color: #9b9b9b3b;
+  
 }
 
 ul li {
@@ -20,11 +20,11 @@ ul li {
 #menu{
     font-size: 1.8em;
     position: absolute;
+    width: 30%;
 }
 
-#menu, a{
+#menu a{
     text-decoration: none;
-    width: 30%;
 }
 
 #principal {
@@ -40,13 +40,15 @@ ul li {
 }
 
 #principal h2 {
-    line-height: 50px;
     margin-left: 20px;
 }
 
 #principal p{
     margin-left: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 18px;
 }
 
 
@@ -57,16 +59,21 @@ ul li {
 #ultima {
     position: absolute;
     width: 50%;
+    color: #ff0000;
 }
 
 #penultima {
     position: relative;
     width: 50%;
     left: 50%;
+    color: #0000ff;
 }
 
 #linha-central {
-    border-right: 1px solid;
+    position: absolute;
+    border-left: 1px solid;
+    height: 40%;
+    right: 50%;   
 }
 
 #antepenultima {
@@ -78,4 +85,17 @@ ul li {
     border-top: 1px solid;
     line-height: 30px;
     margin-left: 20px;
+    font-size: 20px;
+}
+
+#antepenultima h2{
+    line-height: 50px; 
+}
+
+#titulo-principal {
+    line-height: 50px;
+}
+
+#link-titulo {
+    text-decoration: none;
 }
