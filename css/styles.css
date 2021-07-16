@@ -11,26 +11,27 @@ ul li {
 }
 
 #menu ul li {
-    border: 3px solid;
-    border-color: #05fd2ec5;
+    background-color: #05fd2e8a;
+
     padding: 3px;
     margin: 3px;
 }
 
 #menu{
-    font-size: 1.8em;
+    font-size: 22px;
     position: absolute;
-    width: 30%;
+    width: 20%;
 }
 
 #menu a{
     text-decoration: none;
+    color: #000000;
 }
 
 #principal {
     position: absolute;
-    width: 64%;
-    left: 33%;
+    width: 74%;
+    left: 23%;
 }
 
 #principal h1 {
