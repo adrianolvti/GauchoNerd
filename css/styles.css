@@ -12,7 +12,7 @@ ul li {
 
 #menu ul li {
     background-color: #05fd2e8a;
-
+    border-radius: 10px;
     padding: 3px;
     margin: 3px;
 }
@@ -87,10 +87,7 @@ ul li {
     line-height: 30px;
     margin-left: 20px;
     font-size: 20px;
-}
-
-#antepenultima h2{
-    line-height: 50px; 
+    width: 90%;
 }
 
 #titulo-principal {
@@ -99,4 +96,42 @@ ul li {
 
 #link-titulo {
     text-decoration: none;
+}
+
+@media (max-width: 640px) {
+    #menu {
+        width: 100%;
+        position: static;
+        text-align: center;
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    #principal {
+        left: 5%;
+        width: 90%;
+    }
+
+    #principal p{
+        position: static;
+    }
+
+    
+    #ultima-e-penultima h2{
+        width: 90%;
+    }
+
+    #ultima, #penultima {
+        width: 100%;
+        position:static;
+    }
+
+    #ultima, #penultima, #antepenultima {
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    #linha-central {
+        display: none;
+    }
 }
